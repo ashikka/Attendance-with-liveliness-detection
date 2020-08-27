@@ -3,13 +3,10 @@ from matplotlib import pyplot as plt
 import numpy as np
 import face_recognition
 import os
-from IPython.display import display, Javascript
-from google.colab.output import eval_js
 from base64 import b64decode
-from IPython.display import Image
 from datetime import datetime
 
-path = '/content/sample_data/images'
+path = '/content/images'
 images = []
 classNames = []
 k = 0
